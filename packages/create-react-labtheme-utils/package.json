@@ -1,0 +1,38 @@
+{
+    "name": "create-react-labtheme-utils",
+    "version": "1.0.0-lab.1",
+    "description": "",
+    "engines": {
+        "node": ">=8"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ThiagoSGomes-Dev/create-react-labtheme"
+    },
+    "author": "ThiagoSGomes-Dev",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ThiagoSGomes-Dev/create-react-labtheme/issues"
+    },
+    "files": [
+        "fileFunctions.js",
+        "fileWatcherPlugin.js",
+        "getUserConfig.js",
+        "postInstallerInfo.js",
+        "shell-js.js",
+        "labThemeClient.js",
+        "labThemeErrorOverlay.js",
+        "labThemeServer.js"
+    ],
+    "dependencies": {
+        "chalk": "2.4.2",
+        "chokidar": "^3.3.1",
+        "shelljs": "^0.8.3",
+        "fs-extra": "^8.1.0",
+        "ws": "^7.2.3"
+    },
+    "devDependencies": {}
+}

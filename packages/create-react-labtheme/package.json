@@ -1,0 +1,54 @@
+{
+    "name": "create-react-labtheme",
+    "version": "1.0.0-lab.1",
+    "description": "Create React-enabled LAB themes.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ThiagoSGomes-Dev/create-react-labtheme.git"
+    },
+    "keywords": [
+        "wordpress",
+        "create-react-app",
+        "wordpress-theme",
+        "wordpress-development",
+        "wordpress-starter-theme",
+        "wordpress-api",
+        "reactjs",
+        "react",
+        "react-theme",
+        "wordpress-server",
+        "react-tutorial",
+        "react-wordpress-themes",
+        "php"
+    ],
+    "author": "ThiagoSGomes-Dev",
+    "license": "MIT",
+    "engines": {
+        "node": ">=8"
+    },
+    "bugs": {
+        "url": "https://github.com/ThiagoSGomes-Dev/create-react-labtheme/issues"
+    },
+    "files": [
+        "index.js",
+        "createReactLabTheme.js"
+    ],
+    "homepage": "https://github.com/ThiagoSGomes-Dev/create-react-labtheme",
+    "bin": {
+        "create-react-labtheme": "./index.js"
+    },
+    "dependencies": {
+        "chalk": "3.0.0",
+        "commander": "2.20.0",
+        "cross-spawn": "6.0.5",
+        "envinfo": "7.3.1",
+        "fs-extra": "7.0.1",
+        "semver": "6.3.0",
+        "tmp": "0.0.33",
+        "validate-npm-package-name": "3.0.0"
+    }
+}

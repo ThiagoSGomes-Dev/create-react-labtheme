@@ -1,0 +1,31 @@
+{
+    "name": "create-react-labtheme-error-overlay",
+    "version": "3.4.1-wp.1",
+    "description": "create-react-labtheme client with error overlay",
+    "main": "labtheme-error-overlay.js",
+    "scripts": {
+        "build": "npx webpack"
+    },
+    "author": "ThiagoSGomes-Dev",
+    "license": "MIT",
+    "homepage": "https://github.com/ThiagoSGomes-Dev/create-react-labtheme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ThiagoSGomes-Dev/create-react-labtheme.git"
+    },
+    "files": [
+        "labThemeErrorOverlay.js"
+    ],
+    "dependencies": {
+        "react-dev-utils": "^10.2.1",
+        "react-error-overlay": "^6.0.7"
+    },
+    "devDependencies": {
+        "@babel/code-frame": "^7.8.3",
+        "@babel/core": "^7.9.0",
+        "@webpack-cli/info": "^0.2.0",
+        "babel-loader": "^8.1.0",
+        "webpack": "^4.42.1",
+        "webpack-cli": "^3.3.11"
+    }
+}

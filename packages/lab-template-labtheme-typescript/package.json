@@ -1,0 +1,29 @@
+{
+    "name": "lab-template-labtheme-typescript",
+    "version": "1.0.0-lab.1",
+    "keywords": [
+        "react",
+        "create-react-app",
+        "create-react-labtheme",
+        "template",
+        "typescript"
+    ],
+    "description": "The TypeScript template for Create React LABTheme.",
+    "main": "template.json",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ThiagoSGomes-Dev/create-react-labtheme.git",
+        "directory": "packages/lab-template-labtheme-typescript"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=8.10"
+    },
+    "bugs": {
+        "url": "https://github.com/ThiagoSGomes-Dev/create-react-labtheme/issues"
+    },
+    "files": [
+        "template",
+        "template.json"
+    ]
+}

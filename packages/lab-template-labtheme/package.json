@@ -1,0 +1,37 @@
+{
+    "name": "lab-template-labtheme",
+    "version": "1.0.0-lab.1",
+    "keywords": [
+        "wordpress",
+        "create-react-app",
+        "wordpress-theme",
+        "wordpress-development",
+        "wordpress-starter-theme",
+        "wordpress-api",
+        "reactjs",
+        "react",
+        "react-theme",
+        "wordpress-server",
+        "react-tutorial",
+        "react-wordpress-themes",
+        "php",
+        "template"
+    ],
+    "description": "The base template for Create React LABTheme.",
+    "main": "template.json",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ThiagoSGomes-Dev/create-react-labtheme.git"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=8"
+    },
+    "bugs": {
+        "url": "https://github.com/ThiagoSGomes-Dev/create-react-labtheme/issues"
+    },
+    "files": [
+        "template",
+        "template.json"
+    ]
+}
