@@ -20,7 +20,7 @@ const url = require("url");
 
 const packageJson = require("./package.json");
 const _labThemeVersion = packageJson.version;
-const _createReactAppVersion = _labThemeVersion.split("-wp.")[0];
+const _createReactAppVersion = _labThemeVersion.split("-lab.")[0];
 
 // Check these!!!!
 const _reactScriptsLabThemeVersion = "^1.0.0-lab.1";
@@ -143,7 +143,7 @@ function createApp(name, verbose, version, useNpm, usePnp, useTypescript, templa
     checkAppName(appName);
     fs.ensureDirSync(name);
 
-    console.log(`Creating a new React WP theme in ${chalk.green(root)}.`);
+    console.log(`Creating a new React LAB theme in ${chalk.green(root)}.`);
     console.log(`Using Create React App ${chalk.green(_createReactAppVersion)} to scaffold the theme's source code...`);
     console.log();
 
