@@ -23,7 +23,7 @@ const _labThemeVersion = packageJson.version;
 const _createReactAppVersion = _labThemeVersion.split("-lab.")[0];
 
 // Check these!!!!
-const _reactScriptsLabThemeVersion = "^1.0.0-lab.2";
+const _reactScriptsLabThemeVersion = "^1.0.0-lab.3";
 const _getScriptsPath = function () {
     return scriptsFromNpm();
 };

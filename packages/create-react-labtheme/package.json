@@ -1,6 +1,6 @@
 {
     "name": "create-react-labtheme",
-    "version": "1.0.0-lab.2",
+    "version": "1.0.0-lab.3",
     "description": "Create React-enabled LAB themes.",
     "main": "index.js",
     "scripts": {
