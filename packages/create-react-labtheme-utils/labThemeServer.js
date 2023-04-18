@@ -224,7 +224,7 @@ const labThemeServer = {
                 toInject = [phpStuff, jsTags.join("\n"), jsCall];
                 break;
             default:
-                console.log(chalk.magenta(`wpstart::injectlabThemeClient: unknown inject mode: ${mode}.`));
+                console.log(chalk.magenta(`labstart::injectlabThemeClient: unknown inject mode: ${mode}.`));
                 console.log(`Available inject modes: ${chalk.cyan("disable, afterToken, beforeToken, replaceToken, endOfFile")}`);
                 process.exit();
         }

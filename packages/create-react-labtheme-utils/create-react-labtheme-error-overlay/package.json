@@ -1,6 +1,6 @@
 {
     "name": "create-react-labtheme-error-overlay",
-    "version": "1.0.0-lab.3",
+    "version": "1.0.0-lab.4",
     "description": "create-react-labtheme client with error overlay",
     "main": "labtheme-error-overlay.js",
     "scripts": {

@@ -59,7 +59,7 @@ const scriptsFromGit = function () {
     process.chdir(tempFolderName);
     const tempPath = process.cwd();
     console.log(chalk.magenta("Cloning create-react-app/react-scripts from GitHub..."));
-    execSync("git clone https://github.com/ThiagoSGomes-Dev/create-react-app.git");
+    execSync("git clone https://github.com/facebook/create-react-app/tree/main/packages/react-scripts");
     process.chdir("..");
     let scriptsPath = "file:" + path.join(tempPath, "create-react-app", "packages", "react-scripts");
     return {
